@@ -12,5 +12,70 @@
 }
 
 body{
-   font-family: 'Poppins', sans-serif; 
+   font-family: 'Poppins', sans-serif;
+   background-color: var(--background);
+   color: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.title{
+    margin: 0.5em;
+    font-size: 4em;
+    color: green;
+    font-weight: lighter;
+    letter-spacing: 0.05em;
+}
+
+.newGroceryForm{
+    display: flex;
+}
+
+#newGrocery{
+    background-color: white;
+    padding: 0.5em;
+    width: 20em;
+    font-size: 1.5em;
+    border-radius: 1em 0 0 1em;
+}
+
+#addButton{
+    background-color: green;
+    color: var(--background);
+    padding: 0.5em;
+    font-size: 1.5em;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 0 1em 1em 0;
+}
+
+#addButton:hover{
+background-color: darkgreen;
+}
+
+#groceryList{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+    border-radius: 1em; 
+}
+
+.groceryItem{
+    background-color: white;
+    color: var(--background);
+    margin: 1em;
+    width: 24em;
+    padding: 1em;
+    border-radius: 0.50em;
+    text-align: center;
+}
+
+.groceryItem:hover{
+    background-color: darkgreen;
+    font-weight: bolder;
 }
